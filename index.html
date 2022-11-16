@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Journey Registration Form</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-logo">
+                <a href="#LogoHomePage">JOURNEY</a>
+            </div>
+            <div class="header-navigation">
+                <div class="navigation-icon">
+                    <a href="#CalendarPage"><img src="img/header/calendar.png" alt="Calendar"></a>
+                    <a href="#ForumPage"><img src="img/header/forum.png" alt="Forum"></a>
+                    <a href="#JourneyPage"><img src="img/header/journey.png" alt="Journey"></a>
+                </div>
+                <div class="navigation-auth">
+                    Welcome, <a href="#LoginPage">Log In</a> or <a href="#SignUp">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="signup-container">
+            <div class="signup-break">
+                <div class="signup-header-square"></div>
+                <div class="signup-header">
+                    <h1>Sign Up</h1>
+                </div>
+                <a href="#LoginForm">Log In</a>
+            </div>
+
+
+
+
+            <div class="signup-data">
+                <div class="social-button">
+                    <button id="facebook" onclick="window.open('http://facebook.com');">Facebook</button>
+                    <button id="google" onclick="window.open('http://google.com');">Google</button>
+                </div>
+                <h2><span>or</span></h2>
+
+                
+                <input type="text" placeholder="First Name"></input>
+                <input type="text" placeholder="Last Name"></input>
+                <input type="text" placeholder="Email"></input>
+                <input type="text" placeholder="Choose Password"></input>
+                <input type="text" placeholder="Confirm Password"></input>
+    
+    
+    
+                <div class="terms-agree">
+                    <label for="terms-checkbox">
+                        <input type="checkbox" id="terms-checkbox">
+                        <p>Agree our <a href="#TermsPage">Terms & Conditions</a></p>
+                    </label>
+                </div>
+                <button id="requestButton" onclick="location.href='#RequestButton';">Create Account</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
