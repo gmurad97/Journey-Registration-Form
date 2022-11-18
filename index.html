@@ -28,39 +28,30 @@
     </header>
     <main>
         <div class="signup-container">
-            <div class="signup-break">
+            <div class="signup-header">
                 <div class="signup-header-square"></div>
-                <div class="signup-header">
-                    <h1>Sign Up</h1>
-                </div>
+                <h1>Sign Up</h1>
                 <a href="#LoginForm">Log In</a>
             </div>
-
-
-
-
+            <div class="social-button">
+                <button id="facebook" onclick="window.open('http://facebook.com');"><img src="img/social/facebook.png" alt=""><p>Facebook</p></button>
+                <button id="google" onclick="window.open('http://google.com');"><img src="img/social/google.png" alt=""><p>Google</p></button>
+            </div>
             <div class="signup-data">
-                <div class="social-button">
-                    <button id="facebook" onclick="window.open('http://facebook.com');">Facebook</button>
-                    <button id="google" onclick="window.open('http://google.com');">Google</button>
+                <div class="center-line">
+                    <span>or</span>
                 </div>
-                <h2><span>or</span></h2>
-
-                
-                <input type="text" placeholder="First Name"></input>
-                <input type="text" placeholder="Last Name"></input>
-                <input type="text" placeholder="Email"></input>
-                <input type="text" placeholder="Choose Password"></input>
-                <input type="text" placeholder="Confirm Password"></input>
-    
-    
-    
+                <div class="textbox-text-style">
+                    <input type="text" placeholder="First Name"></input>
+                    <input type="text" placeholder="Last Name"></input>
+                    <input type="text" placeholder="Email"></input>
+                    <input type="text" placeholder="Choose Password"></input>
+                    <input type="text" placeholder="Confirm Password"></input>
+                </div>                
                 <div class="terms-agree">
-                    <label for="terms-checkbox">
-                        <input type="checkbox" id="terms-checkbox">
-                        <p>Agree our <a href="#TermsPage">Terms & Conditions</a></p>
-                    </label>
-                </div>
+                    <input type="checkbox" id="terms-checkbox">
+                    <label for="terms-checkbox"><p>Agree our <a href="#TermsPage"> Terms & Conditions</a></p></label>
+                 </div>
                 <button id="requestButton" onclick="location.href='#RequestButton';">Create Account</button>
             </div>
         </div>
